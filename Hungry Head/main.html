@@ -1,0 +1,322 @@
+
+
+
+
+<html>
+<head>
+
+
+<style>
+div {background-color: #FF9999;}
+div a {
+    text-decoration: none;
+    color: BLACK;
+    font-size: 20px;
+    padding: 15px;
+    display:inline-block;
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background:#99OO66 ;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { 
+  background:WHITE; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background:WHITE;}
+</style>
+
+
+
+
+
+
+
+<script type="text/javascript">
+var i1=0;
+var i2=0;
+var i3=0;
+var i4=0;
+var i5=0;
+var i6=0;
+var i7=0;
+var i8=0;
+var i9=0;
+var i10=0;
+var i11=0;
+var i12=0;
+var i13=0;
+var i14=0;
+var i15=0;
+
+
+function deaf(imag){
+document.getElementById('imag').src=imag;
+
+}
+
+
+
+
+
+
+
+
+
+
+function totalIt(p1, s , p , o , x , y, u , pr) {
+ 
+a=document.getElementById(p1).innerHTML;
+i=parseInt(i1*80+i2*90+i3*70+i4*60+i5*7+i6*10+i7*5+i8*15+i9*30+i10*25+i11*40+i12*20+i13*20+i14*30+i15*50);
+
+document.getElementById(s).innerHTML=a;
+document.getElementById(p).innerHTML=u;
+document.getElementById(o).innerHTML=u*pr;
+document.getElementById(x).value=i;
+document.getElementById(y).value=(5/100)*i+i;}
+
+function dec(p1, s , p , o , x , y, u , pr) {
+
+  
+a=document.getElementById(s).innerHTML;
+i=parseInt(i1*80+i2*90+i3*70+i4*60+i5*7+i6*10+i7*5+i8*15+i9*30+i10*25+i11*40+i12*20+i13*20+i14*30+i15*50);
+
+if(u==0){
+document.getElementById(s).innerHTML=" "
+document.getElementById(p).innerHTML=" ";
+document.getElementById(o).innerHTML=" ";
+document.getElementById(x).value=i;
+document.getElementById(y).value=(5/100)*i+i;
+
+}
+if(u>0){
+document.getElementById(s).innerHTML=a;
+document.getElementById(p).innerHTML=u;
+document.getElementById(o).innerHTML=u*pr;
+document.getElementById(x).value=i;
+document.getElementById(y).value=(5/100)*i+i;
+
+}}
+
+
+  
+
+
+
+
+</script>
+</head>
+
+
+
+
+
+<body>
+
+<table  width="100%" height="100%" bgcolor="#996600" >
+
+
+
+
+
+<tr height="5%" width="100%">
+         <td  colspan="2" width="100%">
+             <table  height="100%" width="100%">
+                <tr>
+                  <td width="100%" BACKGROUND="00.JPG" ><font color="#FFCC99"><font face="JOKERMAN"><center><b><font size="6"><p><font size="6"><IMG SRC="LOGO.JPG" BORDER="1" WIDTH="100" HEIGHT="100" ALIGN="LEFT"/>HUNGRY HEAD </font></p>
+                                                             <p><font size="3">CHECK TIME..CHECK TABLE..BOOK ONLINE</font></p>
+                                                                                    
+                      </b></center></font></font></td> 
+                  <td width="5%"  bgcolor="#9933333"BACKGROUND="00.JPG" ><font face="Bedrock" color="RED"><center><P ONMOUSEOVER="deaf()" ONMOUSEOUT="deaf()">ABOUT US</P>
+                                              <P ><font color="white"><a href=payment.html>PAYMENT</a></font></P></center></font></td>
+                 </tr>
+              </table>
+         </td>
+</tr>
+
+
+
+
+<tr width="100%" height="50%">
+      
+         <td  colspan="2" width="100%" >
+            <table  height="100%" width="100%">
+                <tr BGCOLOR="#FFFFCC">
+                   <td width="10%" bgcolor="#993333"><center><font size="3" face="Georgia" color="rgb(255,255,255)"   >INDIAN FOOD MENU</font></CENTER></br></br>
+                       <table>
+                            <div><UL><B><FONT SIZE="4"> SELECT YOUR RECIPE</FONT></B>
+                                 <LI><a href="#"  onmouseover="deaf('1.jpg')" onmouseout="deaf('LOGO2.GIF')" id="product1" onClick='totalIt("product1","total1","total21","total31","q","q1",++i1,80)'><font size="3"face="Comic Sans MS" color="#993333"  >PANEER TIKKA MASALA</font></a></LI>
+                                 <LI><a href="#"  onmouseover="deaf('2.jpg')" onmouseout="deaf('LOGO2.GIF')" id="product2" onclick='totalIt("product2","total2","total22","total32","q","q1",++i2,90)'><font size="3" face="Comic Sans MS" color="#993333">MALAI KOFTA</font></a></LI>
+                                 <LI><a href="#"  onmouseover="deaf('3.jpg')" onmouseout="deaf('LOGO2.GIF')" id="product3" onclick='totalIt("product3","total3","total23","total33","q","q1",++i3,70)'><font size="3" face="Comic Sans MS" color="#993333">KADHAI PANEER</font></a></LI>
+                                 <LI><a href="#"  onmouseover="deaf('4.jpg')" onmouseout="deaf('LOGO2.GIF')" id="product4" onclick='totalIt("product4","total4","total24","total34","q","q1",++i4,60)'><font size="3" face="Comic Sans MS" color="#993333">VEG KORMA</font></a></LI>
+                                   </UL></BR> 
+                                
+
+                                
+
+                                        <ul>
+                                          <li>
+                                            <a href="#"><font size="3"><B>BEVERAGES</B></font></a>
+                                              <ul>
+                                                <li><a href="#" onmouseover="deaf('9.jpg')" onmouseout="deaf('LOGO2.GIF')" id="product9" onclick='totalIt("product9","total9","total29","total39","q","q1",++i9,30)'><font size="3"face="Comic Sans MS" color="#FF0033">MANGO LASSI</font></a></li>
+                                                <li><a href="#" onmouseover="deaf('10.jpg')" onmouseout="deaf('LOGO2.GIF')" id="product10" onclick='totalIt("product10","total10","total210","total310","q","q1",++i10,25)'><font size="3"face="Comic Sans MS" color="#FFOO33">SOFT DRINKS</font></a></li>
+                                                <li><a href="#" onmouseover="deaf('11.jpg')" onmouseout="deaf('LOGO2.GIF')" id="product11" onclick='totalIt("product11","total11","total211","total311","q","q1",++i11,40)'><font size="3"face="Comic Sans MS" color="#FFOO333">JALJEERA</font></a></li>
+                                                <li><a href="#" onmouseover="deaf('12.jpg')" onmouseout="deaf('LOGO2.GIF')" id="product12" onclick='totalIt("product12","total12","total212","total312","q","q1",++i12,20)'><font size="3"face="Comic Sans MS" color="#FFOO33">COFFEE</font></a></li>
+                                                </ul>
+                                             </li>
+                                          </ul></BR>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       <ul>
+                                          <li>
+                                            <a href="#"><font size="3"><B>DESSERTS</B></font></a>
+                                              <ul>
+                                                <li><a href="#" onmouseover="deaf('13.jpg')" onmouseout="deaf('LOGO2.GIF')" id="product13" onclick='totalIt("product13","total13","total213","total313","q","q1",++i13,20)' ><font size="3"face="Comic Sans MS" color="#FFOO33">GULAB JAMUN(2 pcs)</font></a></li>
+                                                <li><a href="#" onmouseover="deaf('14.jpg')" onmouseout="deaf('LOGO2.GIF')" id="product14" onclick='totalIt("product14","total14","total214","total314","q","q1",++i14,30)'><font size="3"face="Comic Sans MS" color="#FFOO33">RASMALAI(2 pcs)</font></a></li>
+                                                  <li><a href="#" onmouseover="deaf('15.jpg')" onmouseout="deaf('LOGO2.GIF')" id="product15" onclick='totalIt("product15","total15","total215","total315","q","q1",++i15,50)'><font size="3"face="Comic Sans MS" color="#FF0033">KHEER(TOPPED WITH SAFFRON)</font></a></li>
+                                                </ul>
+                                             </li>
+                                          </ul></BR></BR>
+
+
+
+
+
+
+
+                                 
+
+
+
+
+                             <UL><B><FONT SIZE="4">SIDES</FONT></B>
+                                  <LI><a href="#"  onmouseover="deaf('5.jpg')" onmouseout="deaf('LOGO2.GIF')" id="product5" onclick='totalIt("product5","total5","total25","total35","q","q1",++i5,7)'><font size="3"face="Comic Sans MS" color="#993333" >PLAIN NAAN</font></a></LI>
+                                  <LI><a href="#"  onmouseover="deaf('6.jpg')" onmouseout="deaf('LOGO2.GIF')" id="product6" onclick='totalIt("product6","total6","total26","total36","q","q1",++i6,10)'><font size="3" face="Comic Sans MS" color="#993333">WHEAT ROTI/GARLIC NAAN</font></a></LI>
+                                 <LI> <a href="#"  onmouseover="deaf('7.jpg')" onmouseout="deaf('LOGO2.GIF')" id="product7" onclick='totalIt("product7","total7","total27","total37","q","q1",++i7,5)'><font size="3" face="Comic Sans MS" color="#993333">PAPUDUM</font></a></LI>
+                                 <LI>  <a href="#"  onmouseover="deaf('8.jpg')" onmouseout="deaf('LOGO2.GIF')" id="product8" onclick='totalIt("product8","total8","total28","total38","q","q1",++i8,15)'><font size="3" face="Comic Sans MS" color="#993333">CUCUMBER RAITA</font></a></LI>
+                                      </UL>
+
+                              
+                                      </div>
+
+
+                      </td>
+                     
+
+
+                </tr></table>
+
+            </td> 
+         <td width="60%" BACKGROUND="01.JPG" WIDTH="100" HEIGHT="100" ><center><img src="LOGO2.gif" id="imag"  height="700" width="900"   border="3" align="center" /  ></center>
+         </td>
+
+        <td width="30%"><table  width="100%" height="100%" BGCOLOR="PINK">
+<tr height="5%" bgcolor="#FFCCOO">
+<th bgcolor="#993333" width="20%"><font size="4" face="Marlett" color="rgb(255,255,255)">QUANTITY</font></th>
+<th bgcolor="#993333"  width="60%"><font size="4" face="Marlett" color="rgb(255,255,255)">ITEMS</font></th>
+<th bgcolor="#993333"  width="20%"><font size="4" face="Marlett" color="rgb(255,255,255)">PRICE</font></th></th>
+</tr>
+
+
+
+<tr height="85%"  width="100%">
+<td width="15%" BACKGROUND="W.JPG" >
+                 <center><font size="4" face="Georgia" color="#993333"> <p id="total21" ></p> </font></center>
+                            <center><font size="4" face="Georgia" color="#993333"><p id="total22" ></p></font></center>
+                      <center><font size="4" face="Georgia" color="#993333"><p id="total23" ></p></font></center>
+                 <center><font size="4" face="Georgia" color="#993333"><p id="total24" ></p></font></center>
+                <center><font size="4" face="Verdana" color="#993333"><p id="total25" ></p></font></center>
+                <center><font size="4" face="Georgia" color="#993333"><p id="total26" ></p></font></center>
+                <center><font size="4" face="Georgia" color="#993333"> <p id="total27" ></p></font></center>
+               <center><font size="4" face="Georgia" color="#993333"><p id="total28" ></p></font></center>
+                <center><font size="4" face="Georgia" color="#993333"><p id="total29" ></p></font></center>
+               <center><font size="4" face="Georgia" color="#993333"><p id="total210" ></p></font></center>
+             <center><font size="4" face="Georgia" color="#993333"><p id="total211" ></p></font></center>
+           <center><font size="4" face="Georgia" color="#993333"><p id="total212" ></p></font></center>
+           <center><font size="4" face="Georgia" color="#993333"><p id="total213" ></p></font></center>
+               <center><font size="4" face="Georgia" color="#993333"><p id="total214" ></p></font></center>
+             <center><font size="4" face="Georgia" color="#993333"><p id="total215" ></p></font></center>
+
+
+</td>
+<td width="70%" BACKGROUND="W.JPG">
+              <center><font size="4" face="Georgia" color="#993333"><p id="total1" onClick='dec("product1","total1","total21","total31","q","q1",--i1,80)'></p></font></center>
+                <center><font size="4" face="Georgia" color="#993333"><p id="total2" onClick='dec("product2","total2","total22","total32","q","q1",--i2,90)'></p></font></center>   
+               <center> <font size="4" face="Georgia" color="#993333"><p id="total3" onClick='dec("product3","total3","total23","total33","q","q1",--i3,70)'></p></font></center>
+                <center><font size="4" face="Georgia" color="#993333"><p id="total4" onClick='dec("product4","total4","total24","total34","q","q1",--i4,60)'></p></font></center>   
+                <center><font size="4" face="Georgia" color="#993333"><p id="total5" onClick='dec("product5","total5","total25","total35","q","q1",--i5,7)'></p></font></center>
+               <center> <font size="4" face="Georgia" color="#993333"><p id="total6" onClick='dec("product6","total6","total26","total36","q","q1",--i6,10)'></p></font></center>
+               <center> <font size="4" face="Georgia" color="#993333"><p id="total7" onClick='dec("product7","total7","total27","total37","q","q1",--i7,5)'></p></font></center>
+                <center><font size="4" face="Georgia" color="#993333"><p id="total8" onClick='dec("product8","total8","total28","total38","q","q1",--i8,15)'></p></font></center> 
+                <center><font size="4" face="Georgia" color="#993333"><p id="total9" onClick='dec("product9","total9","total29","total39","q","q1",--i9,30)'></p></font></center> 
+                <center><font size="4" face="Georgia" color="#993333"><p id="total10" onClick='dec("product10","total10","total210","total310","q","q1",--i10,25)'></p></font></center> 
+                <center><font size="4" face="Georgia" color="#993333"><p id="total11" onClick='dec("product11","total11","total212","total311","q","q1",--i11,40)'></p></font></center> 
+                 <center><font size="4" face="Georgia" color="#993333"><p id="total12" onClick='dec("product12","total12","total212","total312","q","q1",--i12,20)'></p></font></center> 
+                 <center><font size="4" face="Georgia" color="#993333"><p id="total13" onClick='dec("product13","total13","total213","total313","q","q1",--i13,20)'></p></font></center>
+                 <center><font size="4" face="Georgia" color="#993333"><p id="total14" onClick='dec("product14","total14","total214","total314","q","q1",--i14,30)'></p></font></center>
+                 <center><font size="4" face="Georgia" color="#993333"><p id="total15" onClick='dec("product15","total15","total215","total315","q","q1",--i15,50)'></p></font></center>
+</td>
+<td width="15%" BACKGROUND="W.JPG"><center><font size="6" face="Georgia" color="#993333"> <p id="total31" ></p></font></center>
+                <center><font size="4" face="Georgia" color="#993333"> <p id="total32" ></p></font></center>
+                <center><font size="4" face="Georgia" color="#993333"> <p id="total33" ></p></font></center>
+                <center><font size="4" face="Georgia" color="#993333"><p id="total34" ></p></font></center>
+                <center><font size="4" face="Georgia" color="#993333"><p id="total35" ></p></font></center>
+                <center><font size="4" face="Georgia" color="#993333"> <p id="total36" ></p></font></center>
+                <center><font size="4" face="Georgia" color="#993333"><p id="total37" ></p></font></center>
+                <center><font size="4" face="Georgia" color="#993333"> <p id="total38" ></p></font></center>
+               <center><font size="4" face="Georgia" color="#993333"> <p id="total39" ></p></font></center>
+               <center><font size="4" face="Georgia" color="#993333"> <p id="total310" ></p></font></center>
+               <center><font size="4" face="Georgia" color="#993333"> <p id="total311" ></p></font></center>
+                <center><font size="4" face="Georgia" color="#993333"> <p id="total312" ></p></font></center>
+                <center><font size="4" face="Georgia" color="#993333"> <p id="total313" ></p></font></center>
+                 <center><font size="4" face="Georgia" color="#993333"> <p id="total314" ></p></font></center>
+                 <center><font size="4" face="Georgia" color="#993333"> <p id="total315" ></p></font></center>
+
+
+
+
+</td>
+</tr>
+
+
+<tr height="5%" bgcolor="#993333">
+<td colspan="2"><center><font size="4" face="Georgia" color="rgb(255,255,255)"> TOTAL AMOUNT</font></center></td>
+<td><center><font size="1" face="Georgia" color="rgb(255,255,255)"><P><input type="text" value="$0.0" id="q"></P><P>TAX=5%</P> <P ><input type="text" value="$0.0" id="q1"></P></font></center></td>
+</tr>
+</table>
+
+
+</td></tr></table>
+        </td>
+ 
+
+</tr>
+
+
+<tr height="5%"><center><font size="3" face="Georgia" color="#0000033"><th  BACKGROUND="O.JPG">Copyright 2017 Fresh Fast Indian Food:HUNGRY HEAD</th></font></center> </tr>
+
+</table>
+
+</body>
+</html>
